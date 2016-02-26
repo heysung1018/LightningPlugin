@@ -7,7 +7,7 @@ using MiNET.Utils;
 
 namespace Lightning {
 	[Plugin(Author = "sepi", Description = "번개좀 맞아봐라 지지직", PluginName = "Lightning", PluginVersion = "1.0-Alpha")]
-	public class Lightinig
+	public class Lightinig : Plugin
 	{
 		[PacketHandler, Receive]
 		public void MessageHandler(McpeText message, Player player) {
